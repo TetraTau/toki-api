@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.tetratau.toki.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinRegisteredListener",
+    "lookup.BlockEntityTypeAccessor",
+    "lookup.ServerWorldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "toki-mixins-refmap.json"
+}
