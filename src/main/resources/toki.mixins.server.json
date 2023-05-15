@@ -3,7 +3,9 @@
   "package": "net.tetratau.toki.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinRegisteredListener"
+    "MixinRegisteredListener",
+    "lookup.BlockEntityTypeAccessor",
+    "lookup.ServerWorldMixin"
   ],
   "injectors": {
     "defaultRequire": 1
