@@ -1,8 +1,8 @@
-package net.tetratau.testmod;
+package net.tetratau.toki;
 
 import net.fabricmc.api.ModInitializer;
 
-public class TestMod implements ModInitializer {
+public class TokiMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
